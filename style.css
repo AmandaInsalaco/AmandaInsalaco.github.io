@@ -1,0 +1,555 @@
+/*Stylesheet for Mobile App*/
+/*#63b7ff; blud*/
+/*#ffcc6e orange*/
+/*Reset*/
+html,body,div,h1,h2,h3,h4,h5,h6,p,ul,ol,il,header,footer,nav{
+    margin:0;
+    padding:0;
+}
+
+/*universal style*/
+body{
+    background-color: #ffcc6e;
+    padding: 25px;
+}
+
+div#container{
+    width: device-width;
+    background-color: white;
+}
+header{
+    background-color: white;
+    /*percentages like 100% or px*/
+    width:device-width-25px;
+    /*content, padding, border, margin*/
+    padding: 25px;
+}
+
+/*all images and videos*/
+img#Logo{
+    display: block;
+    margin: auto;
+    width: 200px;
+    height: 150px;
+}
+img#AmandaInsalaco{
+    height: 125px;
+    width: 100px;
+    padding: 10px;
+    float: left;
+}
+img#SpaceStation{
+    height: 125px;
+    width: 200px;
+    padding: 10px;
+    float: left;
+}
+img#KSLBanner{
+    height: 125px;
+    width: 200px;
+    padding: 10px;
+    float: left;
+}
+img#Grad{
+   height: 125px;
+    width: 200px;
+    padding: 10px;
+    float: left; 
+}
+
+
+img#pumpkin2{
+    max-width: 80%;
+    min-width: 40%;
+    max-height: 80%;
+    min-height: 40%;
+    padding: 10px;
+    display: block;
+    margin: auto;
+}
+img#SpaceStation2{
+    max-width: 80%;
+    min-width: 40%;
+    max-height: 80%;
+    min-height: 40%;
+    padding: 10px;
+    display: block;
+    margin: auto;
+}
+iframe#WormVideo{
+    max-width: 80%;
+    min-width: 40%;
+    max-height: 80%;
+    min-height: 40%;
+    padding: 10px;
+    display: block;
+    margin: auto;
+}
+iframe#CakeWalk{
+    max-width: 80%;
+    min-width: 40%;
+    max-height: 80%;
+    min-height: 40%;
+    padding: 10px;
+    display: block;
+    margin: auto; 
+}
+
+
+img#FruitStand{
+    max-width: 80%;
+    min-width: 40%;
+    max-height: 80%;
+    min-height: 40%;
+    padding: 10px;
+    display: block;
+    margin: auto;
+}
+img#robot{
+    max-width: 80%;
+    min-width: 40%;
+    max-height: 80%;
+    min-height: 40%;
+    padding: 10px;
+    display: block;
+    margin: auto; 
+}
+img#bird{
+    max-width: 80%;
+    min-width: 40%;
+    max-height: 80%;
+    min-height: 40%;
+    padding: 10px;
+    display: block;
+    margin: auto; 
+}
+img#planet{
+    max-width: 80%;
+    min-width: 40%;
+    max-height: 80%;
+    min-height: 40%;
+    padding: 10px;
+    display: block;
+    margin: auto; 
+}
+
+
+
+/*all of the icons at the header*/
+i#home{
+    padding: 5px;
+    color: white;
+    font-size: 24px;
+}
+i#Awards{
+    padding: 5px;
+    color: white;
+    font-size: 24px;
+}
+i#AboutMe{
+    padding: 5px;
+    color: white;
+    font-size: 24px;
+}
+i#Portfolio{
+    padding: 5px;
+    color: white;
+    font-size: 24px;
+}
+i#Contact{
+    padding: 5px;
+    color: white;
+    font-size: 24px;
+}
+
+.PageTitle{
+    width: 100%;
+    background-color: #97cfff;
+    border: 2px, dimgray;
+    font-family: 'Itim', 'cursive';
+    /*text-align: center;*/
+    text-align: center;
+}
+.content2{
+    width: 100%;
+    background-color: white;
+    border: 2px, dimgray;
+    font-family: 'Itim', 'cursive';
+    text-align: absolute;
+    padding-bottom: 50px;
+}
+header h1{
+    color: white;
+    /*-family: "Hobo Std", "sans-serif";*/
+    font-family: 'Itim', cursive;
+    /*em, px, %*/
+    font-size: 3em;
+    /*position on x and y, then how blurry, than a color*/
+    text-shadow: 2px 2px 2px dimgray;
+    text-align: center;
+}
+.h3Centered{
+    font-family: 'Itim', cursive;
+    /*em, px, %*/
+    font-size: 2em;
+    color: dimgray;
+    /*position on x and y, then how blurry, than a color*/
+    text-shadow: 1px 1px 1px white;
+    padding: 5px;
+    text-align: center;
+}
+h3#Hello{
+    color: #ffcc6e;
+    text-shadow: 1px 1px 1px dimgray;
+}
+div p{
+    font-family: 'Arial';
+    padding: 10px;
+}
+div h3{
+    font-family: 'Itim', cursive;
+    /*em, px, %*/
+    font-size: 2em;
+    color: dimgray;
+    /*position on x and y, then how blurry, than a color*/
+    text-shadow: 1px 1px 1px white;
+    padding: 5px;
+}
+.ulh3{
+    width: 100%;
+    border: 2px, dimgray;
+    font-family: 'Itim', 'cursive';
+    /*text-align: center;*/
+    text-align: center;
+}
+ul{
+    font: 'Itim', 'cursive';
+    list-style-type: none;
+    padding: 20px;
+    padding-bottom: 50px;
+    /*text-align: center;*/
+    font-family: 'Itim', 'cursive';
+}
+div img{
+    text-align: center;
+}
+
+.Buttons{
+    background-color: #63b7ff;
+    color: white;
+    text-align: center;
+    font-size: 24px;
+    margin: 4px 2px;
+    border-radius: 8px;
+    padding: 5px;
+    display: block;
+    margin: auto;
+    text-decoration-style: none;
+}
+.Buttons:hover{
+    background-color:#ffcc6e;
+    
+}
+a{
+    color: white;
+    text-decoration-line: none;
+}
+
+
+/* Center website */
+* {
+  box-sizing: border-box;
+}
+.main {
+  max-width: device-width;
+  min-width: 200px;
+  margin: auto;
+}
+.row {
+  margin: 8px-16px;
+}
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+}
+/* Clear floats after rows */ 
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* Portfolio Content*/
+.portfolio_content{
+  background-color: white;
+  padding: 10px;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+
+/*Contact Me*/
+@media screen and (max-width: 1200px) {
+	figure.product{
+		float:none;
+		margin:10px auto;
+		min-width:50%;
+		max-width:100%;
+		background-color: #63b7ff;
+		border-radius:5%;
+	}
+	figure.product figcaption{
+	text-align: center;
+	color:#63b7ff;
+	font-family: 'Itim', 'cursive';
+	font-size:12px;
+}
+
+	 legend, span, input, textarea {
+		display:block;
+		margin:auto;
+		text-align:center;
+		font-family: 'Itim', 'cursive';
+		color: "darkgrey";
+}
+}
+legend, span, input, textarea {
+		display:block;
+		margin:auto;
+		text-align:center;
+		font-family: 'Itim', 'cursive';
+		color: "darkgrey";
+}
+
+
+
+/*Portfolio Figure Stuff*/
+/*
+div#Portfolio_grp{
+    max-width: 80%;
+    min-width: 20%;
+    margin: auto;
+}
+figure.portfolio{
+    float: left;
+    margin: 10px;
+    min-width: 300px;
+    max-width: 30%;
+    background-color: white;
+    border-radius: 5%;
+}
+figure.portfolio img{
+    max-width: 80%;
+    min-width: 40%;
+    display: block;
+    padding: 10px 0;
+    width: 80%;
+    margin: auto;
+}
+figure.portfolio iframe{
+    display: block;
+    padding: 10px 0;
+    width: 80%;
+    margin: auto;
+}
+figure.portfolio figcaption{
+    text-align: center;
+    font-family: 'Arial';
+    color: dimgrey;
+    font-size: 20px;
+    padding: 10px;
+}
+*/
+/*
+nav{
+    background-color: #97cfff;
+    color: white;
+    font-family: 'Itim', cursive;
+    font-size: 1em;
+    text-align: center;
+    *width: 100%;
+    border: 2px solid white;
+}
+nav ul{
+    list-style:none;
+    *display: block;
+    
+}
+nav ul li a{
+    *background-color: #97cfff;
+    color:white;
+    text-align: center;
+    text-decoration: none;
+    float:left;
+    display: block;
+    padding: 5px 10px;
+    *border-right: 2px solid #63b7ff;
+    *border-bottom: 2px solid #63b7ff;
+}
+nav ul li a:hover{
+    background-color: white;
+    color: #ffcc6e;
+}
+
+div.keepopen{
+    clear: both;
+}
+footer{
+    position:absolute;
+    bottom:0;
+    left:0;
+    width:100%;
+    height: 50px;
+    background-color: #63b7ff;
+}
+*/
+/*
+*media query to see if screen is bigger than 600 px, if it is, nonething is done, if it is not, than the navigation shrinks
+@media screen and (max-width: 600px){
+    div#container{
+        width:100%;
+    }
+    nav ul li a{
+        float: none;
+        text-align:center;
+        border-bottom: 2px solid #63b7ff;
+        border-right: none;
+    }
+}
+*/
+.icon-bar {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #555;
+    overflow: auto;
+    
+}
+
+.icon-bar a {
+    float: left;
+    width: 20%;
+    text-align: center;
+    padding: 12px 0;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 36px;
+}
+
+.icon-bar a:hover {
+    background-color: #97cfff;
+}
+
+.active {
+    background-color: #63b7ff;
+}
+
+/*Modal*/
+
+ /* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 10% auto; /* 15% from the top and centered */
+  padding: 5px;
+  border: 1px solid #ffcc6e;
+  width: 80%; /* Could be more or less, depending on screen size */
+  font-family: 'Arial';
+  padding: 10px;
+}
+.modal-content, #caption {  
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+  from {-webkit-transform:scale(0)} 
+  to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+  from {transform:scale(0)} 
+  to {transform:scale(1)}
+}
+/* The Close Buttons */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+} 
+
+.close2 {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close2:hover,
+.close2:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+} 
+
+.close3 {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close3:hover,
+.close3:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+} 
+
+
+
+
+
+
